@@ -1,0 +1,8 @@
+<!--?xml version="1.0"?-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="acme_route" frontName="hello">
+            <module name="Acme_FirstModule" before="Magento_Backend"/>
+        </route>
+    </router>
+</config>

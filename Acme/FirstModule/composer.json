@@ -1,0 +1,17 @@
+{
+    "name": "acme/first-module",
+    "description": "Our First Module",
+    "require": {
+        "php": "~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Acme\\FirstModule": ""
+        }
+    }
+}

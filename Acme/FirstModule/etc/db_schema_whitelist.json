@@ -1,0 +1,14 @@
+{
+    "dealers": {
+        "column": {
+            "entity_id": true,
+            "name": true,
+            "address": true,
+            "phone": true,
+            "email": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

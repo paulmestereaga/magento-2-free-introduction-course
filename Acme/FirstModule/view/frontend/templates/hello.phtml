@@ -1,0 +1,21 @@
+<div>
+<?php
+/** @var $block Acme\FirstModule\Block\Hello */
+echo 'Hello ' . $block->getName();
+?>
+</div>
+<div>
+    <?php
+    $dealer = $block->getDealer('1');
+    echo $dealer->getName();
+    ?>
+    <hr>
+    <?php
+    $dealers = $block->getDealers();
+    foreach ($dealers as $dealer) {
+        echo $dealer->getName() . ' ' . $dealer->getPhone();
+    }
+
+
+    ?>
+</div>
